@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2122420566453586989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122420566453586994}
+  - component: {fileID: 2122420566453586995}
+  - component: {fileID: 2122420566453586988}
+  - component: {fileID: 5678148125411593282}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122420566453586994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122420566453586989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122420566453586995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122420566453586989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdc4f10a91af8644ba4a47b3d588e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getBattery: 0
+  isTaskVisiable: 0
+  isRestaurantVisiable: 0
+  isSmithyVisiable: 0
+  isPawnShopVisiable: 0
+  isGuardVisiable: 0
+  isFixUFOVisiable: 0
+  radiusSun: 250
+  isNight: 0
+  door: {fileID: 0}
+  archer: {fileID: 0}
+  UFO: {fileID: 0}
+  mainMenu: {fileID: 0}
+  portal: {fileID: 0}
+  hunter: {fileID: 0}
+  villageHead: {fileID: 0}
+  enemyMaker: {fileID: 0}
+  animalMaker: {fileID: 0}
+  backpack: {fileID: 0}
+  help: {fileID: 0}
+  news: {fileID: 0}
+  compose: {fileID: 0}
+  talk: {fileID: 0}
+  task: {fileID: 0}
+  guard: {fileID: 0}
+  fixUFO: {fileID: 0}
+  restaurant: {fileID: 0}
+  smithy: {fileID: 0}
+  pawnShop: {fileID: 0}
+  sun: {fileID: 0}
+  mainCamera: {fileID: 0}
+  promptBox: {fileID: 955468574896480141, guid: ddc2eb22e20de5e4b9364773a60e80c6,
+    type: 3}
+  canvas: {fileID: 0}
+  timeText: {fileID: 0}
+  weatherText: {fileID: 0}
+  newsText: {fileID: 5797125508050782608, guid: 1d94d0b4ee7774249b095d5c66e3af2e,
+    type: 3}
+--- !u!114 &2122420566453586988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122420566453586989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a8443701e71e546888ad952c3d6815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  word:
+  - "\u6211:\u8FD9\u91CC\u662F\u54EA\u91CC\uFF0C\u54A6\uFF1F\u6211\u524D\u9762\u597D\u50CF\u6709\u4E2A\u751F\u7269\uFF0C\u5B83\u597D\u50CF\u5728\u8BF4\u4E9B\u4EC0\u4E48\uFF0C\u8BA9\u6211\u7528\u7FFB\u8BD1\u673A\u6765\u542C\u542C\u4ED6\u5728\u8BF4\u4E9B\u4EC0\u4E48\u5427\u3002\uFF08\u70B9\u51FB\u5BF9\u8BDD\u6846\u4EE5\u7EE7\u7EED\uFF09"
+  - "\u602A\u7269:\u8FD9\u91CC\u597D\u50CF\u6709\u4E2A\u843D\u5355\u7684\u5C0F\u53EF\u601C\uFF0C\u770B\u4ED6\u50CF\u662F\u4E2D\u6691\u4E86\uFF0C\u4E0D\u5982\u6211\u628A\u4ED6\u6349\u6765\u5403\u6389\uFF08\u70B9\u51FB\u5BF9\u8BDD\u6846\u4EE5\u7EE7\u7EED\uFF09"
+  - "\u6211:\u4ED6\u5C45\u7136\u60F3\u628A\u6211\u5403\u6389\uFF0C\u5FEB\u8DD1\u5440\u3002\uFF08\u70B9\u51FB\u5BF9\u8BDD\u6846\u4EE5\u7EE7\u7EED\uFF09"
+  - "\u63D0\u793A:\u4F60\u7684\u8EAB\u540E\u6709\u4E00\u53EA\u602A\u7269\uFF0C\u4F60\u73B0\u5728\u5FC5\u987B\u8981\u9003\u8FC7\u4ED6\u7684\u8FFD\u6740\uFF0Cwsad\u5206\u522B\u4E3A\u524D\u8FDB\uFF0C\u540E\u9000\uFF0C\u5411\u5DE6\u79FB\u52A8\uFF0C\u5411\u53F3\u79FB\u52A8\uFF0C\u9F20\u6807\u53EF\u4EE5\u63A7\u5236\u4F60\u7684\u671D\u5411\uFF0C\u7A7A\u683C\u4E3A\u8DF3\u8DC3\uFF0C\u73B0\u5728\u5FEB\u671D\u7740\u6307\u793A\u7BAD\u5934\u8DD1\u5411\u6751\u5E84\u5427\uFF08\u70B9\u51FB\u5BF9\u8BDD\u6846\u4EE5\u7EE7\u7EED\uFF09"
+  part: 0
+  partText: {fileID: 6814253235257609036, guid: da2735de216230248a5ce62c7da4a66f,
+    type: 3}
+--- !u!114 &5678148125411593282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122420566453586989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d050af0ffd96834a9ea8a38685946bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
